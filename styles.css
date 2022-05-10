@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#home .container {
+    margin: auto;
+}
+
+#home .container .row {
+    align-items: center;
+}
+
+#home .container .row .col-6 {
+    text-align: center;
+}
+
+#home h1 {
+    color: #014f6a;
+    font-size: 5vw;
+    font-weight: 700;
+}
+
+#home h2 {
+    font-weight: 300;
+}
+
+#home img {
+    width: 50vw;
+}
+
+#about {
+    height: 150vh;
+    background-image: url(img/way.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about div {
+    position: relative;
+    top: 400px;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 50px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.76);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+#about h3 {
+    color: #0c7a9f;
+    font-weight: 700;
+}
+
+#about a {
+    color: #0c7a9f;
+}
+
+#portfolio .container {
+    margin: 150px 0 0 0;
+    padding: 0;
+    width: 100vw;
+}
+
+#portfolio .title {
+    margin-left: 10vw;
+    color: #0c7a9f;
+    font-weight: 700;
+}
+
+#portfolio .row {
+    align-items: center;
+    width: 90vw;
+}
+
+#portfolio img {
+    width: 60vw;
+}
+
+.proj {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.proj div {
+     display: flex;
+     flex-direction: column;
+ }
+
+.proj h3 {
+    font-size: 2vw
+}
+
+.proj p {
+    font-size: 1vw
+}
+
+.btn {
+    background-color: #0c7a9f;
+    color: white;
+}
+
+#contact {
+    background-image: url(img/contact.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 135vh;
+    margin-top: 100px;
+}
+
+#contact_article {
+    position: relative;
+    top: 200px;
+    width: 50vw;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.76);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+#contact_left {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact_left h4 {
+    font-size: 3vw;
+}
+
+.erreur {
+    background-color: white;
+    text-align: center;
+    font-weight: 600;
+    color: red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#condition {
+    font-size: .85vw;
+    color: #0c7a9f;
+}
+
+#envoi {
+    background-color: #0c7a9f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: #0c7a9f;
+}
+
+footer .container {
+    padding: 20px 0;
+}
+
+footer .container .row {
+    align-items: flex-end;
+}
+
+#navigation {
+    width: 100vw;
+    position: absolute;
+    top: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.back {
+    color: #0c7a9f;
+    text-decoration: none;
+    margin: 40px;
+}
+
+.back i {
+    border-radius: 50%;
+    padding: 15px;
+    transition: .5s;
+}
+
+.landing {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.landing h1 {
+    color: #014f6a;
+    font-size: 5vw;
+    font-weight: 700;
+}
+
+.landing article {
+    border-radius: 20px;
+    width: 70vw;
+    margin: 50px auto;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.landing p {
+    text-align: left;
+}
+
+.landing .btn {
+    margin: 20px 0;
+}
+
+.landing ul {
+    text-align: left;
+}
+
+.landing h3 {
+    color: #0c7a9f;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.landing img {
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+
+    #home {
+        margin-top: 100px;
+    }
+
+    #home .container .row {
+        flex-direction: column;
+    }
+
+    #home .container .row .col-6 {
+        width: 100vw;
+    }
+
+    #home h1 {
+        font-size: 10vw;
+    }
+
+    #home h2 {
+        font-size: 5vw;
+    }
+
+    #home img {
+        width: 90vw;
+    }
+
+    #about_section {
+        height: 70vh;
+    }
+
+    #about {
+        height: 45vh;
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    #about div {
+        top: 0px;
+        width: 90vw;
+        padding: 30px;
+    }
+
+    #about h3 {
+        font-size: 5vw;
+    }
+
+    #about p {
+        font-size: 4vw;
+    }
+
+    #portfolio .container {
+        margin: 200px 0 0 0;
+    }
+
+    #portfolio .title {
+        font-size: 5vw;
+        margin-left: 5vw;
+    }
+
+    #portfolio .row {
+        margin: 30px 5vw 0 5vw;
+    }
+
+    #portfolio .row a button {
+        font-size: 2vw;
+    }
+
+    #portfolio div .col-6 {
+        width: 100%;
+    }
+
+    .proj h3 {
+        font-size: 5vw;
+    }
+
+    .proj p {
+        font-size: 3vw;
+    }
+
+    #contact {
+        height: 45vh;
+        margin-top: 100px;
+        margin-bottom: 300px;
+    }
+
+    #contact_article {
+        top: 0;
+        width: 90vw;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    #contact_left h4 {
+        font-size: 6vw;
+    }
+
+    #condition {
+        font-size: 3vw;
+    }
+
+    footer .row {
+        width: 80%;
+    }
+
+    footer .col-2 {
+        width: 100%;
+        margin: 20px;
+    }
+
+    footer .col-6 {
+        width: 100%;
+        margin: 20px;
+    }
+
+    footer .col {
+        width: 100%;
+        margin: 20px 0 10px 5vw;
+    }
+
+    .landing article {
+        width: 90vw;
+        padding: 30px;
+    }
+
+    .back {
+        margin: 10px;
+    }
+
+    .landing h1 {
+        font-size: 9vw;
+        margin: 0 30px;
+    }
+
+    .landing h3 {
+        font-weight: 500;
+        margin: 0 20px;
+    }
+}
