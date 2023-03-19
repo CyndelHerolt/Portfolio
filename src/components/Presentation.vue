@@ -72,6 +72,7 @@ i {
   main {
     width: 100%;
     padding: 3rem 1rem;
+    margin: 0 0 5rem 0;
   }
 
   .presentation p {

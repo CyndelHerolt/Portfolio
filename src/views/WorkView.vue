@@ -286,7 +286,8 @@ main {
   main {
     width: 100%;
     flex-direction: column;
-    padding: 3rem 1rem
+    padding: 3rem 1rem;
+    margin: 0;
   }
 
   .work {
@@ -294,7 +295,7 @@ main {
   }
 
   .work h2 {
-    font-size: 1.2rem;
+
     margin-bottom: 1rem;
   }
 
