@@ -1,0 +1,60 @@
+@import './base.css';
+
+#app {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+
+    font-weight: normal;
+}
+
+a,
+.name {
+    text-decoration: none;
+    color: var(--color-focus);
+    transition: 0.4s;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 5rem;
+    padding: 1rem 2rem;
+    font-size: .8rem;
+    opacity: .6;
+}
+
+@media (hover: hover) {
+    a:hover {
+        background-color: hsla(0, 0%, 100%, 0.2);
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        display: flex;
+        place-items: center;
+    }
+
+    #app {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 5rem;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    #app {
+        padding: 1rem 2rem;
+    }
+
+    footer {
+        position: absolute;
+        margin: 0;
+        padding: 1rem;
+        left: 0;
+    }
+}
