@@ -27,6 +27,7 @@
 </template>
 
 <style scoped>
+
 .education div {
   margin: 2rem 0;
 }

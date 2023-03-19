@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Card from './components/Card.vue'
+
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import Card from './components/Card.vue'
 </template>
 
 <style scoped>
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -86,6 +88,7 @@ nav a:first-of-type {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
+    height: 100vh;
   }
 
   header .wrapper {
@@ -93,7 +96,7 @@ nav a:first-of-type {
     place-items: flex-start;
     flex-wrap: wrap;
     position: fixed;
-    top: 35%;
+    margin: auto 0;
     width: 25%;
   }
 

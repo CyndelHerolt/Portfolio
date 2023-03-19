@@ -182,6 +182,7 @@ main {
   width: 60%;
   display: flex;
   place-items: center;
+  margin: 10rem 0 5rem 0;
 }
 
 .work {

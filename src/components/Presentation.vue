@@ -6,7 +6,11 @@
     <div class="presentation">
       <h2>Hi there <i class="fa-solid fa-hand-peace"></i></h2>
       <h3>Some information about me</h3>
-      <p>"Discovering web development two years ago, I became passionate about the <span>web's mechanisms</span>. Since then, I learned basic languages like html, css or javascript, but now I specialize in <span>Symfony</span> and web <span>accessibility</span> and <span>quality</span> issues. In September 2022, I started an apprenticeship in the IT department of my university, for which I am developing a portfolio creation tool."</p>
+      <p>"Discovering web development two years ago, I became passionate about the <span>web's mechanisms</span>. Since then, I learned basic languages like html, css or javascript, but now I specialize in <span>Symfony</span> and web <span>accessibility</span> and <span>quality</span> issues. In September 2022, I started an apprenticeship in the IT department of my university, for which I am developing a portfolio creation tool.
+        <br>
+        On a more personal level, I have a strong interest in comics, skateboarding, soul and post-punk music."
+      </p>
+
       <div class="skills">
         <i class="fa-brands fa-html5 fa-2x"></i>
         <i class="fa-brands fa-bootstrap fa-2x"></i>
@@ -27,6 +31,7 @@ main {
   width: 60%;
   display: flex;
   place-items: center;
+
 }
 
 .presentation {
@@ -55,7 +60,7 @@ i {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .skills i {
