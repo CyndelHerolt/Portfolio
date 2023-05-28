@@ -10,7 +10,7 @@ import Card from './components/Card.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/resume">Resume</RouterLink>
-        <RouterLink to="/work">Work</RouterLink>
+        <RouterLink to="/work">Projects</RouterLink>
       </nav>
       <Card/>
     </div>

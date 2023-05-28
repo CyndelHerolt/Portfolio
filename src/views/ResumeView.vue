@@ -48,6 +48,7 @@ i {
 
 .about {
   padding-left: calc(var(--section-gap) / 2);
+    width: 100%;
 }
 
 .onglets {

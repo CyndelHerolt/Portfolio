@@ -12,15 +12,13 @@
       </p>
 
       <div class="skills">
-        <i class="fa-brands fa-html5 fa-2x"></i>
-        <i class="fa-brands fa-bootstrap fa-2x"></i>
-        <i class="fa-brands fa-css3-alt fa-2x"></i>
-        <i class="fa-brands fa-sass fa-2x"></i>
-        <i class="fa-brands fa-js-square fa-2x"></i>
-        <i class="fa-brands fa-vuejs fa-2x"></i>
         <i class="fa-brands fa-php fa-2x"></i>
         <i class="fa-brands fa-symfony fa-2x"></i>
+        <i class="fa-brands fa-js-square fa-2x"></i>
+        <i class="fa-brands fa-vuejs fa-2x"></i>
+        <i class="fa-brands fa-sass fa-2x"></i>
         <i class="fa-brands fa-ubuntu fa-2x"></i>
+        <i class="fa-brands fa-unity fa-2x"></i>
       </div>
     </div>
   </main>

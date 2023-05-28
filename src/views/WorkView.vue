@@ -52,7 +52,7 @@
               Annebicque's Symfony
               courses</a></li>
           </ul>
-          <a href="https://app.gitbook.com/o/oGUeUrYZBctarryZJD1j/s/f7vqQ2Kol4hyX8Z5JDQh/introduction/decouverte-de-symfony"
+          <a href="https://cyndelherolt.gitbook.io/symfony/"
              target="_blank">
             <button>Over Here !</button>
           </a>
@@ -275,6 +275,10 @@ main {
 
 .reference ul {
   padding: 0 1rem;
+}
+
+.reference ul li a {
+  text-decoration: underline;
 }
 
 .reference p {

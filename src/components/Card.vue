@@ -5,7 +5,8 @@
   <div class="greetings">
     <h1 class="name">Cyndel Herolt</h1>
     <h3>Junior full stack developer focused on web quality and accessibility</h3>
-    <ul>
+      <span><i class="fa-solid fa-circle fa-xs"></i> Not looking for a job</span>
+      <ul>
       <li><i class="fa-solid fa-briefcase"></i> URCA - IUT de Troyes</li>
       <li><i class="fa-solid fa-location-dot"></i> Troyes, France</li>
       <li><i class="fa-solid fa-at"></i> cyndelherolt@gmail.com</li>
@@ -82,6 +83,17 @@ i {
     margin: 0 auto;
     border-bottom: solid 1px var(--color-border);
   }
+}
+
+span {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+span i {
+  margin-right: 3px;
+    color: #ff5b5b;
 }
 
 </style>
